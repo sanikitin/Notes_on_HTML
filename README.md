@@ -1,11 +1,11 @@
 <h1> <b> Содержание заметок. </b> </h1>
-1. <a href="General"> Коротко о главном </a> <br>
-2. <a href="Elements_HTML"> Элементы HTML </a> <br>
+1. <a href="#General"> Коротко о главном </a> <br>
+2. <a href="#Elements_HTML"> Элементы HTML </a> <br>
 
 <hr />
 <hr />
 
-<h2 id="General"> <b> Коротко о главном. </b> </h2>
+<a href="General"> <b> Коротко о главном. </b> </a>
 
 HTML - язык разместки для web страницы. Он буквально размечает страницу и создаёт макет будущего сайта. 
 
@@ -89,7 +89,7 @@ HTML основан на тегах (HTML elements), которые делятс
 <hr />
 <hr />
 
-<h2 id="Elements_HTML"> <b> Элементы HTML. </b> </h2>
+<a href="Elements_HTML"> <b> Элементы HTML. </b> </a>
 
 <hr />
 
