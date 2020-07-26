@@ -1,6 +1,9 @@
 <h1> <b> Содержание заметок. </b> </h1>
-1. Коротко о главном <br>
-2. Элементы HTML<br>
+<ol>
+	<li> <a href="#"> Коротко о главном </a> </li>
+	<li> <a href="#"> Элементы HTML </a> </li>
+	<li>   </li>
+</ol>
 
 <hr />
 <hr />
@@ -91,6 +94,27 @@ HTML основан на тегах (HTML elements), которые делятс
 
 <h2> <b> Элементы HTML. </b> </h2>
 
+<ul>
+    <li> <a href="#"> Элемент Doctype HTML-документа </a> </li>
+    <li> <a href="#"> Элемент изображения img </a> </li>
+    <li> <a href="#"> Элемент ссылки a </a> </li>
+    <li> <a href="#"> Элементы списка </a> </li>
+    <li> <a href="#"> Элемент ввода input </a> </li>
+    <li> <a href="#"> Элемент взаимодействия form </a> </li>
+    <li> <a href="#"> Элемент кнопки button </a> </li>
+    <li> <a href="#"> Элемент контейнера div </a> </li>
+    <li> <a href="#">  </a> </li>
+    <li> <a href="#">  </a> </li>
+    <li> <a href="#">  </a> </li>
+</ul>
+
+<hr />
+
+<h3> <b> Элемент Doctype HTML-документа. </b> </h3>
+
+
+
+</hr>
 <hr />
 
 <h3> <b> Элемент изображения img. </b> </h3>
@@ -159,6 +183,36 @@ HTML основан на тегах (HTML elements), которые делятс
 - У элемента может быть задано значение по умолчанию атрибутом ```value=""```.
 - Для элемента можно задать надпись на заднем фоне атрибутом ```placeholder=""```.
 - Чтобы сделать поле обязательным для заполнения можно добавить атрибут - ```<input type="text" required>```
+- Можно создавать форму для выбора. Кнопки выбора можно также помещать в form, как и button. Пример:
+```html
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+```
+Каждая кнопка выбора (флажок - input) помещается в свой label и автоматически с ним ассоциируется. Все связанные флажки должны иметь одинаковый атрибут name.
+Хорошей практикой считается явное связывание input и label. Для label указывается атрибут for, а для input атрибут id. Они должны соотвествовать друг другу.
+Пример чекбокса ниже:
+```html
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+```
+Чтобы передавать выбор пользователя в чекбоксах, флажках и input на сервер нужно использовать атрибут value. 
+Ниже пример всех трех видов выбора и кнопка отправки данных на сервер.
+```html
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+```
+Можно выставлять какой то флажок или чекбокс по умолчанию с помощью атрибута checked:
+```html
+<input type="radio" name="test-name" checked>
+```
+Тут нужно будет разобраться подробнее позже.
 
 </hr>
 <hr />
@@ -189,7 +243,11 @@ HTML основан на тегах (HTML elements), которые делятс
 </hr>
 <hr />
 
+<h3> <b> Элемент контейнера div. </b> </h3>
 
+Синтаксис - ```<div> Наполнение </div>```
+
+Элемент div, также известный как элемент подразделения, является контейнером общего назначения для других элементов.
 
 
 
