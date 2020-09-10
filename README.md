@@ -127,7 +127,8 @@ HTML основан на тегах (HTML elements), которые делятс
 
 <h3> <b> Элемент Doctype HTML-документа. </b> </h3>
 
-Синтаксис - ```html
+Синтаксис - 
+```html
 <!DOCTYPE html>
 <html>
   <!-- Your HTML code goes here -->
