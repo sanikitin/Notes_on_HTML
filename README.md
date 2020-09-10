@@ -1,8 +1,7 @@
 <h1> <b> Содержание заметок. </b> </h1>
 <ol>
-	<li> <a href="#"> Коротко о главном </a> </li>
+	<li> <a href="https://github.com/sanikitin/Notes_on_HTML#--%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE-%D0%BE-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%BC--"> Коротко о главном </a> </li>
 	<li> <a href="#"> Элементы HTML </a> </li>
-	<li>   </li>
 </ol>
 
 <hr />
@@ -103,9 +102,6 @@ HTML основан на тегах (HTML elements), которые делятс
     <li> <a href="#"> Элемент взаимодействия form </a> </li>
     <li> <a href="#"> Элемент кнопки button </a> </li>
     <li> <a href="#"> Элемент контейнера div </a> </li>
-    <li> <a href="#">  </a> </li>
-    <li> <a href="#">  </a> </li>
-    <li> <a href="#">  </a> </li>
 </ul>
 
 <hr />
